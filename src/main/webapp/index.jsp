@@ -39,6 +39,7 @@
 				%>
                 <li><a href="login/logout.jsp"><%= userName %>님 Logout</a></li>
                 <!--또는 session.getAttribute("userName") -->
+                <li><a href="member/member_update_form.jsp">MyPage</a></li>
                 <%
 				    }else {
                 %>
